@@ -58,3 +58,42 @@ body {
   padding: 0.5rem 1rem;
   text-decoration: none;
 }
+
+/* SEC1 */
+
+.sec1 {
+  background-color: lightblue;
+  padding: 4rem 0;
+  height: 800px;
+}
+
+.sec1-cont {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  height: 800px;
+}
+
+.sec1-text h1 {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.sec1-btn {
+  background: #0061ff;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+}
+
+.sec1 img {
+  flex: 1;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sec1-text {
+  flex: 1;
+}
