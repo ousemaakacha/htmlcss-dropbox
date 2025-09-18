@@ -17,10 +17,6 @@
 
   [class^="col-"] {
   }
-
-  #teams {
-    background-color: purple;
-  }
 }
 
 .container {
@@ -287,4 +283,12 @@ h4 {
 .tool-img {
   width: 100%;
   margin-top: 1rem;
+}
+
+#teams h2 {
+  padding-bottom: 2rem;
+}
+
+.col-5 {
+  width: calc(100% / 5);
 }
