@@ -289,6 +289,25 @@ h4 {
   padding-bottom: 2rem;
 }
 
+/* FOOTER */
+
+footer {
+  background-color: black;
+}
+
 .col-5 {
   width: calc(100% / 5);
+  color: white;
+
+  ul {
+    list-style-type: none;
+    padding: 4rem 3rem;
+    li {
+      margin: 5px;
+    }
+
+    h3 {
+      padding-bottom: 1rem;
+    }
+  }
 }
