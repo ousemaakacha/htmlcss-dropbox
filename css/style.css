@@ -273,3 +273,17 @@ h4 {
 .partner_img {
   width: 90%;
 }
+
+.col-35 .text-part {
+  align-items: center;
+}
+
+/* OPERATIONS */
+
+.operation {
+  margin-bottom: 2rem;
+}
+
+.tool-img {
+  width: 100%;
+}
