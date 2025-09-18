@@ -7,11 +7,11 @@
 
         <link rel="stylesheet" href="./css/style.css">
     </head>
-    <body>
+    <body class="debug">
         <header class="header">
             <div class=" nav">
                 <nav class="menu">
-                    <img class="logo" src="./css/img/logo-small.png"></img>
+                    <img class="logo" src="./css/img/logo-small.png">
                 <a href>Perché Dropbox</a>
                 <a href>Funzioni</a>
                 <a href>Piani e Prezzi</a>
@@ -24,43 +24,179 @@
         </div>
     </header>
 
-    <main>
-        <section class="sec1">
-            <div class="title">
-                <h1>Tutto ció che ti serve per il lavoro, in un unico
-                        posto</h1>
-            </div>
-            <div class="container sec1-cont">
+    <main id="app_main">
+
+        <div class="jumbotron">
+            <h1 class="container">Tutto ció che ti serve per il lavoro, in un unico posto</h1>
+          
                 
-                <div class="sec1-text">
+            <div class="container">
                 
-                    <p>Finalmente tutti i tuoi strumenti,
+                
+                <div class="d-flex">
+
+                    <div class="col-35">
+                        <div>
+                        Finalmente tutti i tuoi strumenti,
                         contenuti e collaboratori sono accessibili dallo stesso
                         posto.
                         Dropbox Buisness é piú di uno spazio di archiviazione:
                         é un modo intelligente e integrato per ottimizare il
                         flusso di lavoro esistente.
-                    </p>
-                    <a class="sec1-btn" href>Inizia la tua prova gratutita</a>
+                        </div>
+                        <br>
+                    
+                    <div><a class="sec1-btn" href>Inizia la tua prova gratutita</a></div>
+                    <br>
+                   
 
                     <div>Annulla in qualsiasi momento</div>
+                    <br>
                     <div class="arrow">&downarrow;</div>
+                    </div>
+                    <div class="col-65">
+                        <img class="jumbo" src="./css/img/jumbo.png" alt="">
+                    </div>
                 </div>
+              </div>
+            </div>
+        </div>
 
-                <div class="jumbo">
-
-                    <!-- <img src="./css/img/jumbo.png" alt=""> -->
-
+        <section id="plans">
+           
+            <div class="container-sm">
+                <div class="billing">
+                <h2>Trova il piano buisness che fa per te</h2>
                 </div>
-            </div>  
+                
+
+                
+                <div class="billing">
+                <input class="dot" type="radio" id="monthly" name="check">
+                <label for="monthly">Fatturazione Mesnile</label>
+                <input class="dot" type="radio" id="year" name="check">
+                <label for="yearly">Fatturazione annuale</label>
+                </div>
+                
+                
+                <div class="row">
+                <div class="col-33">
+
+
+
+
+                    <div class="card-header">
+                      <span class="icon"></span>
+                     <span>Singolo</span>
+                     </div>
+
+              <div class="card-body">
+              <h2>Professional</h2>
+              <p class="price">&euro; 12.00 <span><br>/mese</span></p>
+
+               <ul class="features">
+                <li>1 utente</li>
+               <li>5 TB di spazio di archiviazione sicuro</li>
+                <li>Funzioni di produttività premium e condivisione file semplice e sicura</li>
+               </ul>
+
+                <button class="btn2">Prova gratis per 30 giorni</button>
+               <p class="buy">oppure <a href>acquista ora</a></p>
+
+               <hr>
+
+             <h4>Punti Salienti del piano</h4>
+                <ul class="highlights">
+                <li> Invia file fino a 100 GB con Dropbox Transfert</li>
+                 <li> Cartelle offline su dispositivi mobili</li>
+                 </ul>
+                 </div>
+                    </div>
+                       
+                    <div class="col-33">
+                        <div class="card-header">
+                            <span class="icon"></span>
+                            <span>Team</span>
+                        </div>
+
+                        <div class="card-body">
+                            <h2>Advanced</h2>
+                            <p class="price">&euro; 18.00 <br><span>/utente/mese</span></p>
+
+                            <ul class="features">
+                                <li>3 o piú utenti</li>
+                                <li>Tutto lo spazio di cui hai bisogno il tuo Team</li>
+                                <li>Sofisticate funzioni di controllo e per tenere al sicuro tutti i file del tuo team</li>
+                            </ul>
+
+                            <button class="btn2">Prova gratis per 30 giorni</button>
+
+                            <p class="buy">oppure <a href>acquista ora</a></p>
+
+                            <hr>
+
+                            <h4>Punti Salienti del piano</h4>
+                            
+                            <ul class="highlights">
+                                <li>Nessun limite di spazio per i file</li>
+                                <li>Cartelle offline su dispositivi mobili</li>
+                                <li>Risparmio del 50% rispetto alle iscriozioni singole</li>
+                                <li>Possibilitá di inserire nuovi membri del team</li>
+                                <li>Gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>
+                    </div>
+                        
+                    <div class="col-33">
+                        <div class="card-header">
+                            <span class="iscon"></span>
+                            <span>Azienda</span>
+                        </div>
+
+                        <div class="card-body">
+                            <h2>Enterprise</h2>
+                            <p class="price">Contattaci <br><span>-</span></p>
+
+                            <ul class="features">
+                                <li>10 o piú utenti</li>
+                                <li>Soluzioni personalizzabili per la tua azienda</li>
+                                <li>Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</li>
+                            </ul>
+
+                            <button class="btn2">Prova gratis per 30 giorni</button>
+
+                            <p class="buy">oppure <a href>acquista ora</a></p>
+
+                            <hr>
+
+                            <h4>Punti Salienti del piano</h4>
+
+                            <ul class="highlights">
+                                <li>Cartelle offline su dispositivi mobili</li>
+                                <li>Servizio Assistenza 24/h</li>
+                                <li>Possibilitá di personalizzazione totale</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-100">
+                        <div class="card-header">
+                            <span class=""></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>     
         </section>
+          
 
-        <section class="subs">
+                
 
-        </section>
 
-        </main>
-        <footer></footer>
+        
+    </main>
+                <footer></footer>
 
-    </body>
+</body>
 </html>
