@@ -122,12 +122,15 @@ h1 {
 }
 
 .col-33 {
-  width: calc(100% / 3);
-  border: 2px solid black;
+  width: calc(90% / 3);
+  border: 1px solid lightgray;
+  gap: 1rem;
 }
 
 .col-100 {
   width: 100%;
+  border: 1px solid lightgray;
+  margin-top: 3rem;
 }
 
 .card-header {
@@ -181,6 +184,10 @@ input {
   margin: 15px 0;
 }
 
+ul {
+  padding: 10rem;
+}
+
 .features li {
   margin-bottom: 8px;
   font-size: 14px;
@@ -232,4 +239,26 @@ h4 {
 .highlights li {
   margin-bottom: 8px;
   color: #333;
+}
+
+.team {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem;
+  margin-top: 2rem;
+
+  .btn3 {
+    padding: 0.5rem 2rem;
+    border: none;
+    color: white;
+    background-color: #0061ff;
+    cursor: pointer;
+  }
+}
+
+.text_under {
+  margin: 2rem;
+  p {
+    padding-top: 3rem;
+  }
 }
