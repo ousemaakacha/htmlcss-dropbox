@@ -152,6 +152,7 @@ h1 {
 }
 
 .billing {
+  padding-bottom: 2rem;
   h2 {
     padding: 3rem 0;
   }
@@ -272,6 +273,21 @@ h4 {
 }
 
 /* PARTNER */
+
+.text-part {
+  margin-top: 3rem;
+  h2 {
+    margin-bottom: 1rem;
+  }
+}
+
+.btn4 {
+  margin-top: 2rem;
+  padding: 0.5rem 2rem;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  cursor: pointer;
+}
 
 .partner_img {
   width: 90%;
