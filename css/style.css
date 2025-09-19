@@ -23,6 +23,7 @@
   width: 70%;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 h1 {
@@ -110,8 +111,9 @@ h1 {
 
 .jumbo {
   object-fit: cover;
-
-  max-width: 100%;
+  position: absolute;
+  top: 1rem;
+  max-width: 80%;
 }
 
 /* plans */
